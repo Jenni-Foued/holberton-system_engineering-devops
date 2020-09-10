@@ -1,0 +1,2 @@
+#!/bin/bash
+chown -R betty:holberton /holberton-system_engineering-devops/0x01-shell_permissions
