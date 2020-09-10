@@ -1,0 +1,16 @@
+.\"Manpage for 101-man_holberton.
+.\"Contact vivek@nixcraft.in to correct errors or typos.
+.TH man 2 "10 December 1945" "0.32"
+.SH NAME
+enica - the first electronic general-purpose digital computer.
+.SH SYNPOSIS
+eniac
+.SH DESCRIPTION
+Eniac was Turing-complete, and able to solve "a large class of nemerical problems" through reprogramming.
+.SH OPTIONS
+eniac does not take any options.
+.SH SEE ALSO
+.SH BUGS
+No known bugs.
+.SH AUTHOR
+University of Pennsylvannia.
