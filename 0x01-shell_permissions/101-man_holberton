@@ -1,6 +1,5 @@
 .TH man 2 "10 December 1945" 0.32 "eniac man page"
-.\"Contact medfouedjenni@gmail.com  correct errors or typos.
-.\"I'm just filling this to match theblablabl
+.\"Contact medfouedjenni@gmail.com  correct errors or typos I'm just filling this  match theblablablabla
 .SH NAME
 .B eniac
 - the first electronic general-purpose digital computer.
@@ -12,6 +11,7 @@ Eniac was Turing-complete, and able to solve "a large class of numerical problem
 eniac does not take any options.
 .SH SEE ALSO
 see also www.google.com
+G
 .SH BUGS
 No known bugs.
 .SH AUTHOR
