@@ -1,0 +1,2 @@
+#!/bin/bash
+find /media/pandya/Ext4/ -type d -exec chmod g+x {} +
