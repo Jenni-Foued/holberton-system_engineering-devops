@@ -1,5 +1,4 @@
 .TH man 2 "10 December 1945" 0.32 "eniac man page"
-.\"Contact medfouedjenni@gmail.com  correct errors or typos I'm just filling this  match theblablablabla
 .SH NAME
 .B eniac
 - the first electronic general-purpose digital computer.
@@ -8,10 +7,10 @@ eniac
 .SH DESCRIPTION
 Eniac was Turing-complete, and able to solve "a large class of numerical problems" through reprogramming.
 .SH OPTIONS
-eniac does not take any options.
+.B eniac
+does not take any options.
 .SH SEE ALSO
-see also www.google.com
-G
+ENIAC could be programmed to perform complex sequences of operations(2),including lpps(2),branches(2),and subroutines(2).
 .SH BUGS
 No known bugs.
 .SH AUTHOR
