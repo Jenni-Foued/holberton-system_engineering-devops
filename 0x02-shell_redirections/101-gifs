@@ -1,2 +1,2 @@
 #!/bin/bash
-ls *.gif -R1a | find *.gif -type f|cut -d. -f1|sort
+ls *.gif -R1a | find *.gif -type f|rev|cut -d . -f 2-  |rev|sort
