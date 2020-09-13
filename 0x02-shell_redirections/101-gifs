@@ -1,0 +1,2 @@
+#!/bin/bash
+ls *.gif -R1a | find *.gif -type f|tr -d .gif|sort
