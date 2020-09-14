@@ -1,0 +1,2 @@
+#!/bin/bash
+cut -sd- -f1 nasa_19950801.tsv|uniq -c|sort -n -r|head -11
