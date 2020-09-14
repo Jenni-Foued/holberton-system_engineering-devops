@@ -1,2 +1,2 @@
 #!/bin/bash
-cut -sd- -f1 |sort -n -r|uniq -cd|cut -d " " -f8|head -11
+cut -sd- -f1 |sort -n -r|uniq -cd|sort  |cut -d " " -f8|head -11
