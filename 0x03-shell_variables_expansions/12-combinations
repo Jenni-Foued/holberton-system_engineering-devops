@@ -1,2 +1,3 @@
 #!/bin/bash
-echo  {a..z}{a..z}
+echo  {a..z}{a..z}|grep -v oo |sort
+
