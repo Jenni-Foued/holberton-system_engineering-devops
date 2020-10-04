@@ -2,30 +2,30 @@
 
 **File** | **Description**
 --- | ---
-[0-hello_world](https://github.com/Jenni-Foued/holberton-system_engineering-devops/blob/master/0x02-shell_redirections/0-hello_world) | 
-[1-confused_smiley](https://github.com/Jenni-Foued/holberton-system_engineering-devops/blob/master/0x02-shell_redirections/1-confused_smiley) | 
-[2-hellofile](https://github.com/Jenni-Foued/holberton-system_engineering-devops/blob/master/0x02-shell_redirections/2-hellofile) | 
-[3-twofiles](https://github.com/Jenni-Foued/holberton-system_engineering-devops/blob/master/0x02-shell_redirections/3-twofiles) | 
-[4-lastlines](https://github.com/Jenni-Foued/holberton-system_engineering-devops/blob/master/0x02-shell_redirections/4-lastlines) | 
-[5-firstlines](https://github.com/Jenni-Foued/holberton-system_engineering-devops/blob/master/0x02-shell_redirections/5-firstlines) | 
-[6-third_line](https://github.com/Jenni-Foued/holberton-system_engineering-devops/blob/master/0x02-shell_redirections/6-third_line) | 
-[7-file](https://github.com/Jenni-Foued/holberton-system_engineering-devops/blob/master/0x02-shell_redirections/7-file) | 
-[8-cwd_state](https://github.com/Jenni-Foued/holberton-system_engineering-devops/blob/master/0x02-shell_redirections/8-cwd_state) | 
-[9-duplicate_last_line](https://github.com/Jenni-Foued/holberton-system_engineering-devops/blob/master/0x02-shell_redirections/9-duplicate_last_line) | 
-[10-no_more_js](10-no_more_js) | 
-[11-directories](https://github.com/Jenni-Foued/holberton-system_engineering-devops/blob/master/0x02-shell_redirections/11-directories) | 
-[12-newest_files](https://github.com/Jenni-Foued/holberton-system_engineering-devops/blob/master/0x02-shell_redirections/12-newest_files) | 
-[13-unique](https://github.com/Jenni-Foued/holberton-system_engineering-devops/blob/master/0x02-shell_redirections/13-unique) | 
-[14-findthatword](https://github.com/Jenni-Foued/holberton-system_engineering-devops/blob/master/0x02-shell_redirections/14-findthatword) | 
-[15-countthatword](https://github.com/Jenni-Foued/holberton-system_engineering-devops/blob/master/0x02-shell_redirections/15-countthatword) | 
-[16-whatsnext](https://github.com/Jenni-Foued/holberton-system_engineering-devops/blob/master/0x02-shell_redirections/16-whatsnext) | 
-[17-hidethisword](https://github.com/Jenni-Foued/holberton-system_engineering-devops/blob/master/0x02-shell_redirections/17-hidethisword) | 
-[18-letteronly](https://github.com/Jenni-Foued/holberton-system_engineering-devops/blob/master/0x02-shell_redirections/18-letteronly) | 
-[19-AZ](https://github.com/Jenni-Foued/holberton-system_engineering-devops/blob/master/0x02-shell_redirections/19-AZ) | 
-[20-hiago](https://github.com/Jenni-Foued/holberton-system_engineering-devops/blob/master/0x02-shell_redirections/20-hiago) | 
-[21-reverse](https://github.com/Jenni-Foued/holberton-system_engineering-devops/blob/master/0x02-shell_redirections/21-reverse) | 
-[22-users_and_homes](https://github.com/Jenni-Foued/holberton-system_engineering-devops/blob/master/0x02-shell_redirections/22-users_and_homes) | 
-[100-empty_casks](https://github.com/Jenni-Foued/holberton-system_engineering-devops/blob/master/0x02-shell_redirections/100-empty_casks) | 
-[101-gifs](https://github.com/Jenni-Foued/holberton-system_engineering-devops/blob/master/0x02-shell_redirections/101-gifs) | 
-[102-acrostic](https://github.com/Jenni-Foued/holberton-system_engineering-devops/blob/master/0x02-shell_redirections/102-acrostic) | 
-[103-the_biggest_fan](https://github.com/Jenni-Foued/holberton-system_engineering-devops/blob/master/0x02-shell_redirections/103-the_biggest_fan) | 
+[0-hello_world](https://github.com/Jenni-Foued/holberton-system_engineering-devops/blob/master/0x02-shell_redirections/0-hello_world) | Contain a script that prints “Hello, World”, followed by a new line to the standard output.
+[1-confused_smiley](https://github.com/Jenni-Foued/holberton-system_engineering-devops/blob/master/0x02-shell_redirections/1-confused_smiley) | Contain a script that displays a confused smiley "(Ôo)'.
+[2-hellofile](https://github.com/Jenni-Foued/holberton-system_engineering-devops/blob/master/0x02-shell_redirections/2-hellofile) | Contain a script that display the content of the /etc/passwd file.
+[3-twofiles](https://github.com/Jenni-Foued/holberton-system_engineering-devops/blob/master/0x02-shell_redirections/3-twofiles) | Contain a script that display the content of /etc/passwd and /etc/hosts
+[4-lastlines](https://github.com/Jenni-Foued/holberton-system_engineering-devops/blob/master/0x02-shell_redirections/4-lastlines) | Contain a script that display the last 10 lines of /etc/passwd
+[5-firstlines](https://github.com/Jenni-Foued/holberton-system_engineering-devops/blob/master/0x02-shell_redirections/5-firstlines) | Contain a script that display the first 10 lines of /etc/passwd
+[6-third_line](https://github.com/Jenni-Foued/holberton-system_engineering-devops/blob/master/0x02-shell_redirections/6-third_line) | Contain a script that displays the third line of the file iacta. *Assuming that the iacta is in the current working directory.*
+[7-file](https://github.com/Jenni-Foued/holberton-system_engineering-devops/blob/master/0x02-shell_redirections/7-file) | Contain a shell script that creates a file named exactly \*\\'"Holberton School"\'\\*$\?\*\*\*\*\*:) containing the text Holberton School ending by a new line.
+[8-cwd_state](https://github.com/Jenni-Foued/holberton-system_engineering-devops/blob/master/0x02-shell_redirections/8-cwd_state) | Contain a script that writes into the file ls_cwd_content the result of the command ls -la. *If the file ls_cwd_content already exists, it should be overwritten. If the file ls_cwd_content does not exist, create it.*
+[9-duplicate_last_line](https://github.com/Jenni-Foued/holberton-system_engineering-devops/blob/master/0x02-shell_redirections/9-duplicate_last_line) | Contain a script that duplicates the last line of the file iacta. *Assuming that the file iacta is in the current working directory.*
+[10-no_more_js](10-no_more_js) | Contain a script that deletes all the regular files (not the directories) with a .js extension that are present in the current directory and all its subfolders.
+[11-directories](https://github.com/Jenni-Foued/holberton-system_engineering-devops/blob/master/0x02-shell_redirections/11-directories) | Contain a script that counts the number of directories and sub-directories in the current directory. *Hidden directories are counted and The current and parent directories aren't taken into account.*
+[12-newest_files](https://github.com/Jenni-Foued/holberton-system_engineering-devops/blob/master/0x02-shell_redirections/12-newest_files) | Contain a script that displays the 10 newest files in the current directory. *One file per line and the output is sorted from the newest to the oldest.*
+[13-unique](https://github.com/Jenni-Foued/holberton-system_engineering-devops/blob/master/0x02-shell_redirections/13-unique) | Contain a script that takes a list of words as input and prints only words that appear exactly once. *Input format: One line, one word, output format: One line, one word and words are sorted.*
+[14-findthatword](https://github.com/Jenni-Foued/holberton-system_engineering-devops/blob/master/0x02-shell_redirections/14-findthatword) | Contain a script that display lines containing the pattern “root” from the file /etc/passwd
+[15-countthatword](https://github.com/Jenni-Foued/holberton-system_engineering-devops/blob/master/0x02-shell_redirections/15-countthatword) | Contain a script that display the number of lines that contain the pattern “bin” in the file /etc/passwd.
+[16-whatsnext](https://github.com/Jenni-Foued/holberton-system_engineering-devops/blob/master/0x02-shell_redirections/16-whatsnext) | Contain a script that display lines containing the pattern “root” and 3 lines after them in the file /etc/passwd.
+[17-hidethisword](https://github.com/Jenni-Foued/holberton-system_engineering-devops/blob/master/0x02-shell_redirections/17-hidethisword) | Contain a script that display all the lines in the file /etc/passwd that do not contain the pattern “bin”.
+[18-letteronly](https://github.com/Jenni-Foued/holberton-system_engineering-devops/blob/master/0x02-shell_redirections/18-letteronly) | Contain a script that display all lines of the file /etc/ssh/sshd_config starting with a letter.
+[19-AZ](https://github.com/Jenni-Foued/holberton-system_engineering-devops/blob/master/0x02-shell_redirections/19-AZ) | Contain a script that replace all characters A and c from input to Z and e respectively.
+[20-hiago](https://github.com/Jenni-Foued/holberton-system_engineering-devops/blob/master/0x02-shell_redirections/20-hiago) | Contain a script that removes all letters c and C from input.
+[21-reverse](https://github.com/Jenni-Foued/holberton-system_engineering-devops/blob/master/0x02-shell_redirections/21-reverse) | Contain a script that reverse its input.
+[22-users_and_homes](https://github.com/Jenni-Foued/holberton-system_engineering-devops/blob/master/0x02-shell_redirections/22-users_and_homes) | Contain  a script that displays all users and their home directories, sorted by users.
+[100-empty_casks](https://github.com/Jenni-Foued/holberton-system_engineering-devops/blob/master/0x02-shell_redirections/100-empty_casks) | Contain a script that finds all empty files and directories in the current directory and all sub-directories. *Only the names of the files and directories are displayed (not the entire path), hidden files are listed, one file name per line and the listing does end with a new line.* 
+[101-gifs](https://github.com/Jenni-Foued/holberton-system_engineering-devops/blob/master/0x02-shell_redirections/101-gifs) | Contain a script that lists all the files with a .gif extension in the current directory and all its sub-directories. *Hidden files are listed, only regular files (not directories) are listed, the names of the files are displayed without their extensions, the files are sorted by byte values, but case-insensitive, one file name per line and the listing  end with a new line.*
+[102-acrostic](https://github.com/Jenni-Foued/holberton-system_engineering-devops/blob/master/0x02-shell_redirections/102-acrostic) | Contain a script that decodes acrostics that use the first letter of each line. **An acrostic is a poem (or other form of writing) in which the first letter (or syllable, or word) of each line (or paragraph, or other recurring feature in the text) spells out a word, message or the alphabet. The word comes from the French acrostiche from post-classical Latin acrostichis). As a form of constrained writing, an acrostic can be used as a mnemonic device to aid memory retrieval.**
+[103-the_biggest_fan](https://github.com/Jenni-Foued/holberton-system_engineering-devops/blob/master/0x02-shell_redirections/103-the_biggest_fan) | Contain a script that parses web servers logs in TSV format as input and displays the 11 hosts or IP addresses which did the most requests. *Order by number of requests, most active host or IP at the top.*
