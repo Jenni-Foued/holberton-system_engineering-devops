@@ -1,4 +1,4 @@
-# Shell_redirections
+# Shell redirections
 
 **File** | **Description**
 --- | ---
