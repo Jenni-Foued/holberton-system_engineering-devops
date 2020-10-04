@@ -2,10 +2,10 @@
 
 **File** | **Description**
 --- | ---
-[0-iam_betty](https://github.com/Jenni-Foued/holberton-system_engineering-devops/blob/master/0x01-shell_permissions/0-iam_betty) |
-[1-who_am_i](https://github.com/Jenni-Foued/holberton-system_engineering-devops/blob/master/0x01-shell_permissions/1-who_am_i) |
-[2-groups](https://github.com/Jenni-Foued/holberton-system_engineering-devops/blob/master/0x01-shell_permissions/2-groups) |
-[3-new_owner](https://github.com/Jenni-Foued/holberton-system_engineering-devops/blob/master/0x01-shell_permissions/3-new_owner) |
+[0-iam_betty](https://github.com/Jenni-Foued/holberton-system_engineering-devops/blob/master/0x01-shell_permissions/0-iam_betty) | Contain a script that changes your user ID to betty. > assuming that the user betty exist
+[1-who_am_i](https://github.com/Jenni-Foued/holberton-system_engineering-devops/blob/master/0x01-shell_permissions/1-who_am_i) | Contain a script that prints the effective userid of the current user.
+[2-groups](https://github.com/Jenni-Foued/holberton-system_engineering-devops/blob/master/0x01-shell_permissions/2-groups) | Contain a script that prints all the groups the current user is part of.
+[3-new_owner](https://github.com/Jenni-Foued/holberton-system_engineering-devops/blob/master/0x01-shell_permissions/3-new_owner) | Contain a script that changes the owner of the file hello to the user betty.(assuming that the user betty exist)
 [4-empty](https://github.com/Jenni-Foued/holberton-system_engineering-devops/blob/master/0x01-shell_permissions/4-empty) |
 [5-execute](https://github.com/Jenni-Foued/holberton-system_engineering-devops/blob/master/0x01-shell_permissions/5-execute) |
 [6-multiple_permissions](https://github.com/Jenni-Foued/holberton-system_engineering-devops/blob/master/0x01-shell_permissions/6-multiple_permissions) |
