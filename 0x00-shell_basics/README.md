@@ -8,9 +8,9 @@
 [3-listfiles](https://github.com/Jenni-Foued/holberton-system_engineering-devops/blob/master/0x00-shell_basics/3-listfiles) | Contain a script that display current directory contents in a long format.
 [4-listmorefiles](https://github.com/Jenni-Foued/holberton-system_engineering-devops/blob/master/0x00-shell_basics/4-listmorefiles) | Contain a script that display current directory contents, including hidden files (starting with .) and using the long format.
 [5-listfilesdigitonly](https://github.com/Jenni-Foued/holberton-system_engineering-devops/blob/master/0x00-shell_basics/5-listfilesdigitonly) | Contain a script that Display current directory contents:
-    * Long format
-    * With user and group IDs displayed numerically
-    * And hidden files (starting with .)
+* Long format
+* With user and group IDs displayed numerically
+* And hidden files (starting with .)
 [6-firstdirectory](https://github.com/Jenni-Foued/holberton-system_engineering-devops/blob/master/0x00-shell_basics/6-firstdirectory) | Contain a script that creates a directory named holberton in the /tmp/ directory.
 [7-movethatfile](https://github.com/Jenni-Foued/holberton-system_engineering-devops/blob/master/0x00-shell_basics/7-movethatfile) | Contain a script that move the file "betty" from /tmp/ to /tmp/holberton.
 [8-firstdelete](https://github.com/Jenni-Foued/holberton-system_engineering-devops/blob/master/0x00-shell_basics/8-firstdelete) | Contain a script that delete the file "betty".
