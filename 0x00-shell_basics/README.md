@@ -7,10 +7,7 @@
 [2-bring_me_home](https://github.com/Jenni-Foued/holberton-system_engineering-devops/blob/master/0x00-shell_basics/2-bring_me_home) | Contain a script that changes the working directory to the user’s home directory without using any shell variables.
 [3-listfiles](https://github.com/Jenni-Foued/holberton-system_engineering-devops/blob/master/0x00-shell_basics/3-listfiles) | Contain a script that display current directory contents in a long format.
 [4-listmorefiles](https://github.com/Jenni-Foued/holberton-system_engineering-devops/blob/master/0x00-shell_basics/4-listmorefiles) | Contain a script that display current directory contents, including hidden files (starting with .) and using the long format.
-[5-listfilesdigitonly](https://github.com/Jenni-Foued/holberton-system_engineering-devops/blob/master/0x00-shell_basics/5-listfilesdigitonly) | Contain a script that Display current directory contents:
-* Long format
-* With user and group IDs displayed numerically
-* And hidden files (starting with .)
+[5-listfilesdigitonly](https://github.com/Jenni-Foued/holberton-system_engineering-devops/blob/master/0x00-shell_basics/5-listfilesdigitonly) | Contain a script that Display current directory contents: Long format, user and group IDs displayed numerically and hidden files (starting with .)
 [6-firstdirectory](https://github.com/Jenni-Foued/holberton-system_engineering-devops/blob/master/0x00-shell_basics/6-firstdirectory) | Contain a script that creates a directory named holberton in the /tmp/ directory.
 [7-movethatfile](https://github.com/Jenni-Foued/holberton-system_engineering-devops/blob/master/0x00-shell_basics/7-movethatfile) | Contain a script that move the file "betty" from /tmp/ to /tmp/holberton.
 [8-firstdelete](https://github.com/Jenni-Foued/holberton-system_engineering-devops/blob/master/0x00-shell_basics/8-firstdelete) | Contain a script that delete the file "betty".
@@ -23,11 +20,5 @@
 [15-lets_move](https://github.com/Jenni-Foued/holberton-system_engineering-devops/blob/master/0x00-shell_basics/15-lets_move)| Contain a script that moves all files beginning with an uppercase letter to the directory /tmp/u.
 [16-clean_emacs](https://github.com/Jenni-Foued/holberton-system_engineering-devops/blob/master/0x00-shell_basics/16-clean_emacs)| Contain a script that deletes all files in the current working directory that end with the character '~' (tilde).
 [17-tree](https://github.com/Jenni-Foued/holberton-system_engineering-devops/blob/master/0x00-shell_basics/17-tree)| Contain a script that creates the directories welcome/, welcome/to/ and welcome/to/holberton in the current directory.
-[18-commas](https://github.com/Jenni-Foued/holberton-system_engineering-devops/blob/master/0x00-shell_basics/18-commas) | Contain a script that lists all the files and directories of the current directory :
-* separated by commas (,).
-* Directory names end with a slash (/).
-* Files and directories starting with a dot (.) included.
-* The listing is  alpha ordered, except for the directories . and .. which are listed at the  very beginning.
-* Only digits and letters are used to sort; Digits come first.
-* The listing end with a new line.
+[18-commas](https://github.com/Jenni-Foued/holberton-system_engineering-devops/blob/master/0x00-shell_basics/18-commas) | Contain a script that lists all the files and directories of the current directory : separated by commas (,), directory names end with a slash (/), files and directories starting with a dot (.) included, the listing is  alpha ordered, except for the directories . and .. which are listed at the  very beginning, only digits and letters are used to sort; Digits come first and the listing end with a new line.
 [holberton.mgc](https://github.com/Jenni-Foued/holberton-system_engineering-devops/blob/master/0x00-shell_basics/holberton.mgc) | Contain a script that create a magic file holberton.mgc that can be used with the command file to detect Holberton data files. Holberton data files always contain the string HOLBERTON at offset 0.
