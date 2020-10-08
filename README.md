@@ -1,10 +1,10 @@
 # holberton-system_engineering-devops
 
-# Description
+## About
 
-*This repository is made during my studies at Holberton school, each project contains files that represents solutions to giving tasks*
+This repository is made during my studies at Holberton school, each project contains files that represents solutions to giving tasks
 
-# What is the shell?
+### Shell
 
 **Shell** is a program which processes commands and returns output, like bash in Linux. Terminal is a program that run a shell, in the past it was a physical device (Before terminals were monitors with keyboards, they were teletypes) and then its concept was transferred into software, like Gnome-Terminal.
 
