@@ -1,6 +1,5 @@
 #!/usr/bin/env bash
 # This script displays:
-# script that displays:
 #+ The content of the current directory
 #+ In a list format
 #+ Where only the part of the name after the first dash is displayed
