@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+while read -r elm; do
+echo "$elm" | cut -d: -f1,3,6
+done < /etc/passwd
