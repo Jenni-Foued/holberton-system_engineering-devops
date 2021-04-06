@@ -7,12 +7,15 @@ sudo service nginx start
 sudo chown -R "$USER":"$USER" /var/www/html/index.nginx-debian.html
 sudo chmod -R 755 /var/www
 sudo echo "Holberton School" > /var/www/html/index.nginx-debian.html
-echo "server {
-# Redirect to HTTPS
-listen      80;
-server_name fouedjenni.tech www.fouedjenni.tech;
-return      301 https://euw.op.gg/summoner/userName=franklayn;
-}" >> /etc/nginx/sites-available/default
+printf %s "server {
+    listen 80;
+    listen [::]:80 default_server;
+    root   /etc/nginx/html;
+    index  index.html index.htm;
+    location /redirect_me {
+        return 301 http://example.com/;
+    }
+}" > /etc/nginx/sites-available/default
 nginx -t
 service nginx reload
 systemctl restart nginx
