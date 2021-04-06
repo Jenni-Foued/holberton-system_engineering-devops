@@ -1,21 +1,19 @@
 #!/usr/bin/env bash
 # Creating nginx web server and redirecting a page to another page
 
-sudo apt-get -y update
-sudo apt-get -y install nginx
-sudo service nginx start
-sudo chown -R "$USER":"$USER" /var/www/html/index.nginx-debian.html
-sudo chmod -R 755 /var/www
-sudo echo "Holberton School" > /var/www/html/index.nginx-debian.html
-printf %s "server {
+apt-get update
+apt-get install -y nginx
+mkdir /etc/nginx/html
+touch /etc/nginx/html/index.html
+echo "Holberton School" > /etc/nginx/html/index.html
+echo "server {
     listen 80;
     listen [::]:80 default_server;
     root   /etc/nginx/html;
     index  index.html index.htm;
-    location /redirect_me {
-        return 301 http://example.com/;
+    location = /redirect_me {
+        return 301 https://euw.op.gg/summoner/userName=franklayn;
     }
 }" > /etc/nginx/sites-available/default
-nginx -t
 service nginx reload
 systemctl restart nginx
