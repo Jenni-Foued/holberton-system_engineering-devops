@@ -8,8 +8,10 @@ sudo chown -R "$USER":"$USER" /var/www/html/index.nginx-debian.html
 sudo chmod -R 755 /var/www
 sudo echo "Holberton School" > /var/www/html/index.nginx-debian.html
 echo "server {
-# Permanent redirect to an individual page
-rewrite ^/redirect_me$ https://euw.op.gg/summoner/userName=franklayn permanent;
+# Redirect to HTTPS
+listen      80;
+server_name fouedjenni.tech www.fouedjenni.tech;
+return      301 https://euw.op.gg/summoner/userName=franklayn;
 }" >> /etc/nginx/sites-available/default
 nginx -t
 service nginx reload
