@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+# Creating nginx web server and redirecting a page to another page
+
+sudo apt-get -y update
+sudo apt-get -y install nginx
+sudo service nginx start
+sudo chown -R "$USER":"$USER" /var/www/html/index.nginx-debian.html
+sudo chmod -R 755 /var/www
+sudo echo "Holberton School" > /var/www/html/index.nginx-debian.html
+echo "server {
+# Permanent redirect to an individual page
+rewrite ^/redirect_me$ https://euw.op.gg/summoner/userName=franklayn permanent;
+}" >> /etc/nginx/sites-available/default
+nginx -t
+service nginx reload
+systemctl restart nginx
