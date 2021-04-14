@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+# Configure Nginx server with previous setup and create a custom 404 page
+
+sudo apt update -y && sudo apt-get upgrade -y
+sudo apt install nginx -y
+
+echo "Holberton School" | sudo tee /var/www/html/index.nginx-debian.html
+
+new_string="\\\trewrite ^/redirect_me https://www.youtube.com/watch?v=G9b6DYM9B0M&list=PLBcXutNz_RDJkSF7qH0Hc3zmwSyWJ1JdX&index=23 permanent;"
+sudo sed -i "26i $new_string" /etc/nginx/sites-available/default
+
+echo "Ceci n'est pas une page" | sudo tee /var/www/html/custom_404.html
+sed -i "26i \\\terror_page 404 /custom_404.html;" /etc/nginx/sites-available/default
+
+sudo service nginx restart
+sudo service nginx reload
