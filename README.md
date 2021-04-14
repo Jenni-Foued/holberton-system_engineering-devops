@@ -2,7 +2,7 @@
 
 ## About
 
-This repository is made during my study at Holberton school, each project contains files that represents solutions to giving tasks
+This repository is made during my study at Holberton school, each project contains files that represents solutions to giving tasks.
 
 **Project** | **Description**
 --- | ---
