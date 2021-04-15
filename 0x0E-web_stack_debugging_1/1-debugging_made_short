@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
 # Link sites-enabled to sites-available and restart nginx
 ln -sf /etc/nginx/sites-available/default /etc/nginx/sites-enabled/default
-sudo service nginx stop
+sudo service nginx start
+rm /run/nginx.pid
