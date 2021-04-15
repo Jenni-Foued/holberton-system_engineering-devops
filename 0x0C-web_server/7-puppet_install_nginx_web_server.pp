@@ -23,4 +23,5 @@ service { 'nginx':
   enable     => true,
   hasrestart => true,
   require    => Package['nginx']
+  subscribe  => File_line['Redirection']
 }
