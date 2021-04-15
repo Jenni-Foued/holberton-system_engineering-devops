@@ -18,6 +18,10 @@ sudo sed -i "17i\\\tadd_header X-Served-By $HOSTNAME;" /etc/nginx/sites-availabl
 new_string="\\\trewrite ^/redirect_me https://www.youtube.com/watch?v=G9b6DYM9B0M&list=PLBcXutNz_RDJkSF7qH0Hc3zmwSyWJ1JdX&index=23 permanent;"
 sudo sed -i "18i  $new_string" /etc/nginx/sites-available/default
 
+# Modifying 404 not found
+echo "Ceci n'est pas une page" | sudo tee /var/www/html/custom_404.html
+sed -i "26i \\\terror_page 404 /custom_404.html;" /etc/nginx/sites-available/default
+
 # Restart nginx to apply modification
 sudo service nginx restart
 sudo service nginx reload
