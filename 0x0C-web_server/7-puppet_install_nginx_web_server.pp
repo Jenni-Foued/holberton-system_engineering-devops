@@ -14,7 +14,7 @@ file { '/var/www/html/index.html':
 file_line { 'Redirection':
   ensure => 'present',
   path   => '/etc/nginx/sites-available/default',
-  after  => 'listen 80 ;',
+  after  => 'listen 80;',
   line   => '\trewrite ^/redirect_me https://www.google.com/ permanent'
 }
 
