@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+# Install and configure HAproxy on the load balancer server
+
+# Update and upgrade system
+sudo apt-get update -y && sudo apt-get upgrade -y
+
+# Install HAProxy
+sudo apt-get install haproxy=1.6.\*
+
+# Configure haproxy.cfg
+cfg_string = "\nfrontend firstbalance\n\tbind *:80\n\toption forwardfor\n\tdefault_backend webservers\n\nbackend webservers\n\tbalance roundrobin\n\tserver webserver1 34.75.3.166:80 check\n\tserver webserver2 35.231.143.33:80 check\n\toption httpchk"
+echo "$cfg_string" >> /etc/haproxy/haproxy.cfg
+
+# Restart haproxy to apply modification
+sudo service haproxy restart
