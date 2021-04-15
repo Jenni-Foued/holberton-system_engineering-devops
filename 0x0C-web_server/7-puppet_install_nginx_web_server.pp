@@ -1,36 +1,29 @@
-# Install Nginx web server and configure it
+  # Script that setup a nginx web server on our server + redirection.
 
-#Updating system
-exec { 'Update and upgrade':
-  provider => shell,
-  command  => 'sudo apt-get -y update && sudo apt-get upgrade -y'
-}
-
-#Installing nginx
 package { 'nginx':
-  ensure  => 'installed',
-  require => Exec['Update and upgrade']
+  ensure   => present,
+  provider => 'apt'
 }
 
-#Creating index file
-file { 'index.nginx-debian.html':
+# Index page
+file { '/var/www/html/index.html':
   ensure  => present,
-  path    => '/var/www/html/index.nginx-debian.html',
-  content => 'Holberton School',
-  require => Package['nginx']
+  path    => '/var/www/html/index.html',
+  content => 'Holberton School'
 }
 
-#Defining redirection
-file_line { 'Redirection':
+# Redirect to fabulous Rick Astley page
+file_line { 'Rick Astley showtime':
   ensure => 'present',
   path   => '/etc/nginx/sites-available/default',
-  after  => 'listen 80;',
-  line   => '	    rewrite ^/redirect_me https://www.google.com/ permanent'
+  after  => 'listen 80 default_server;',
+  line   => '        rewrite ^/redirect_me https://www.youtube.com/watch?v=dQw4w9WgXcQ permanent;'
 }
 
-#Restarting nginx
-exec { 'nginx restart':
-  provider => shell,
-  command  => 'sudo service nginx restart && sudo service nginx reload',
-  require  = File_line['Redirection']
+service { 'nginx':
+  ensure     => running,
+  enable     => true,
+  hasrestart => true,
+  require    => Package['nginx'],
+  subscribe  => File_line['Rick Astley showtime']
 }
