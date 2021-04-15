@@ -3,7 +3,7 @@
 #Updating system
 exec { 'Update and upgrade':
   provider => shell,
-  command  => 'sudo apt-get -y update && sudo apt-get upgrade'
+  command  => 'sudo apt-get -y update && sudo apt-get upgrade -y'
 }
 
 #Installing nginx
