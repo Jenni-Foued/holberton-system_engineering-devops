@@ -2,12 +2,22 @@
 # shellcheck disable=SC2154
 # configures a brand new Ubuntu machine
 
-sudo apt-get -y update
-sudo apt-get -y upgrade
+# Update and upgrade system
+sudo apt-get -y update && sudo apt-get -y upgrade
+
+# Install nginx
 sudo apt-get -y install nginx
-sudo sed -i "17i\\\tadd_header X-Served-By $HOSTNAME;" /etc/nginx/sites-available/default
-new_string="\\\trewrite ^/redirect_me https://www.youtube.com/watch?v=G9b6DYM9B0M&list=PLBcXutNz_RDJkSF7qH0Hc3zmwSyWJ1JdX&index=23 permanent;"
-sudo sed -i "i18  $new_string" /etc/nginx/sites-available/default
+
+# Index page
 echo "Holberton School" | sudo tee /var/www/html/index.nginx-debian.html
+
+# Served by header
+sudo sed -i "17i\\\tadd_header X-Served-By $HOSTNAME;" /etc/nginx/sites-available/default
+
+# Redirection
+new_string="\\\trewrite ^/redirect_me https://www.youtube.com/watch?v=G9b6DYM9B0M&list=PLBcXutNz_RDJkSF7qH0Hc3zmwSyWJ1JdX&index=23 permanent;"
+sudo sed -i "18i  $new_string" /etc/nginx/sites-available/default
+
+# Restart nginx to apply modification
 sudo service nginx restart
 sudo service nginx reload
