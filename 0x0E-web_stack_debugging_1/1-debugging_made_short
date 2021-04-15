@@ -2,4 +2,4 @@
 # Link sites-enabled to sites-available and restart nginx
 ln -sf /etc/nginx/sites-available/default /etc/nginx/sites-enabled/default
 sudo service nginx start
-sudo service nginx stop
+rm /run/nginx.pid
