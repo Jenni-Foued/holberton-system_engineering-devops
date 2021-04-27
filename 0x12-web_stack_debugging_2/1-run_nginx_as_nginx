@@ -5,5 +5,5 @@
 
 chown nginx:nginx /etc/nginx/nginx.conf
 chmod 700 /etc/nginx/nginx.conf
-sed -i 's/80 default/8080 default_server;/' /etc/nginx/sites-available/default
+sed -i 's/80 default_server/8080 default_server/' /etc/nginx/sites-available/default
 sudo -u nginx service nginx start
