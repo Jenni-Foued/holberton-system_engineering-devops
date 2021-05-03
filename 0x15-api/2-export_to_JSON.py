@@ -8,12 +8,12 @@ import json
 import requests
 from sys import argv
 
-if __name__ == '__main__':
-    userId = argv[1]
-    user = requests.get("https://jsonplaceholder.typicode.com/users/{}".
-                        format(userId)).json()
+if __name__ == "__main__":
+    userID = argv[1]
+    user = requests.get("https://jsonplaceholder.typicode.com/users/{}"
+                        .format(userID)).json()
     todos = requests.get("https://jsonplaceholder.typicode.com/todos?userId={}"
-                         .format(userId)).json()
+                         .format(userID)).json()
     username = user.get('username')
     tasks = []
     for task in todos:
@@ -23,6 +23,6 @@ if __name__ == '__main__':
         task_dict["username"] = username
         tasks.append(task_dict)
     jsonobj = {}
-    jsonobj[userId] = tasks
-    with open("{}.json".format(userId), 'w') as jsonfile:
+    jsonobj[userID] = tasks
+    with open("{}.json".format(userID), 'w') as jsonfile:
         json.dump(jsonobj, jsonfile)
