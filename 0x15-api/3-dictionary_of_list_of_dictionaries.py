@@ -15,8 +15,8 @@ if __name__ == "__main__":
         uid = user.get("id")
         userdict[uid] = []
         usernamedict[uid] = user.get("username")
-    todo = requests.get("https://jsonplaceholder.typicode.com/todos").json()
-    for task in todo:
+    todos = requests.get("https://jsonplaceholder.typicode.com/todos").json()
+    for task in todos:
         taskdict = {}
         uid = task.get("userId")
         taskdict["task"] = task.get('title')
