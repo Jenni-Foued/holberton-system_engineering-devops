@@ -1,0 +1,28 @@
+server {
+        add_header X-Served-By 2147-web-01;
+        listen 80 ;
+        listen 443;
+        listen [::]:80 default_server;
+	
+	location /hbnb_static/ {
+                alias /data/web_static/current/;
+        }
+
+        # server context
+        location /airbnb-onepage/ {
+                 proxy_pass http://127.0.0.1:5000;
+        }
+
+        location /airbnb-dynamic/number_odd_or_even/ {
+                 rewrite ^\/airbnb-dynamic\/number_odd_or_even\/(.*) /number_odd_or_even/$1;
+                 proxy_pass http://127.0.0.1:5001;
+        }
+
+        index index.html;
+
+        server_name fouedjenni.tech;
+
+        error_page 404 /custom_404.html;
+
+        rewrite ^/redirect_me https://www.youtube.com/watch?v=G9b6DYM9B0M&list=PLBcXutNz_RDJkSF7qH0Hc3zmwSyWJ1JdX&index=23 permanent;
+}
